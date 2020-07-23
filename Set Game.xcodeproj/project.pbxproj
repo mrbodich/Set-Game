@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E60C0E38210B255B00537A23 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60C0E37210B255B00537A23 /* CardView.swift */; };
-		E62CFD58210A445B00B65038 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CFD57210A445B00B65038 /* Grid.swift */; };
 		E62CFD5A210A73A600B65038 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62CFD59210A73A600B65038 /* GameBoardView.swift */; };
+		E66EDF7324C9867500E3FC0A /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E66EDF7224C9867500E3FC0A /* Grid.swift */; };
 		E6EE246D20E13FE400EB1FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE246C20E13FE400EB1FA2 /* AppDelegate.swift */; };
 		E6EE246F20E13FE400EB1FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE246E20E13FE400EB1FA2 /* ViewController.swift */; };
 		E6EE247220E13FE400EB1FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EE247020E13FE400EB1FA2 /* Main.storyboard */; };
@@ -21,8 +21,8 @@
 
 /* Begin PBXFileReference section */
 		E60C0E37210B255B00537A23 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		E62CFD57210A445B00B65038 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = ../../Grid.swift; sourceTree = "<group>"; };
 		E62CFD59210A73A600B65038 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		E66EDF7224C9867500E3FC0A /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		E6EE246920E13FE400EB1FA2 /* Set Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Set Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EE246C20E13FE400EB1FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6EE246E20E13FE400EB1FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 				E62CFD59210A73A600B65038 /* GameBoardView.swift */,
 				E60C0E37210B255B00537A23 /* CardView.swift */,
 				E6EE248120E1409A00EB1FA2 /* Card.swift */,
-				E62CFD57210A445B00B65038 /* Grid.swift */,
+				E66EDF7224C9867500E3FC0A /* Grid.swift */,
 				E6EE247020E13FE400EB1FA2 /* Main.storyboard */,
 				E6EE247820E13FE500EB1FA2 /* Info.plist */,
 			);
@@ -159,11 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66EDF7324C9867500E3FC0A /* Grid.swift in Sources */,
 				E60C0E38210B255B00537A23 /* CardView.swift in Sources */,
 				E6EE246F20E13FE400EB1FA2 /* ViewController.swift in Sources */,
 				E6EE248220E1409A00EB1FA2 /* Card.swift in Sources */,
 				E6EE248420E140C000EB1FA2 /* TheSetGame.swift in Sources */,
-				E62CFD58210A445B00B65038 /* Grid.swift in Sources */,
 				E6EE246D20E13FE400EB1FA2 /* AppDelegate.swift in Sources */,
 				E62CFD5A210A73A600B65038 /* GameBoardView.swift in Sources */,
 			);
