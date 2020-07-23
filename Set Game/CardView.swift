@@ -136,38 +136,6 @@ class CardView: UIView {
             self.frame.size = newSize
             self.frame.origin = newOrigin
         }
-        
-        /*animator.addAnimations { [unowned self] in
-            let scale: CGFloat = 1.4
-            let newSize = CGSize(width: self.frame.width * scale, height: self.frame.height * scale)
-            let newOrigin = CGPoint(x: self.frame.origin.x - (newSize.width - self.frame.width) / 2,
-                                    y: self.frame.origin.y - (newSize.height - self.frame.height) / 2)
-            self.frame.size = newSize
-            self.frame.origin = newOrigin
-        }
-        animator.addAnimations { [unowned self] in
-            self.frame = oldFrame
-        }
-        animator.addCompletion { (position) in
-            afterFlipCompletion()
-        }
-        animator.startAnimation()*/
-        
-        
-        /*UIViewPropertyAnimator.runningPropertyAnimator(withDuration: duration, delay: 0, options: [.curveEaseOut], animations: { [unowned self] in
-            let scale: CGFloat = 1.4
-            let newSize = CGSize(width: self.frame.width * scale, height: self.frame.height * scale)
-            let newOrigin = CGPoint(x: self.frame.origin.x - (newSize.width - self.frame.width) / 2,
-                                    y: self.frame.origin.y - (newSize.height - self.frame.height) / 2)
-            self.frame.size = newSize
-            self.frame.origin = newOrigin
-        }) { (positon) in
-            UIViewPropertyAnimator.runningPropertyAnimator(withDuration: duration, delay: 0, options: [.curveEaseIn], animations: { [unowned self] in
-                self.frame = oldFrame
-            }) { (positon) in
-                afterFlipCompletion()
-            }
-        }*/
     }
     
     func animate(to newFrame: CGRect, delay: TimeInterval = 0, allowFlip: Bool = true, afterFlipCompletion: @escaping () -> Void = {}) {
