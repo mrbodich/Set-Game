@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Set Game
 //
-//  Created by Bogdan Chernobrivec on 25.06.2018.
-//  Copyright © 2018 Bogdan Chornobryvets. All rights reserved.
+//  Created by bodich on 25.06.2018.
+//  Copyright © 2018 bodich. All rights reserved.
 //
 
 import UIKit

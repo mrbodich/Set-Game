@@ -2,8 +2,8 @@
 //  GameBoardView.swift
 //  Set Game
 //
-//  Created by Bogdan Chernobrivec on 27.07.2018.
-//  Copyright © 2018 Bogdan Chornobryvets. All rights reserved.
+//  Created by bodich on 27.07.2018.
+//  Copyright © 2018 bodich. All rights reserved.
 //
 
 import UIKit
