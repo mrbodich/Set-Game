@@ -85,21 +85,6 @@ class CardView: UIView {
             }
         }
         
-        /*label.frame = frame
-        label.frame.origin = CGPoint.zero
-        label.text = """
-        \(isReadyToFlip)
-        \(state)
-        \(destination)
-        \(cardId)
-        """
-        label.adjustsFontSizeToFitWidth = true
-        label.textAlignment = NSTextAlignment.center
-        label.lineBreakMode = NSLineBreakMode.byWordWrapping
-        label.numberOfLines = 0
-        label.font = label.font.withSize(18)
-        label.textColor = UIColor.black
-        self.insertSubview(label, at: self.subviews.count - 1)*/
     }
     
     func animateBeforeOut(afterFlipCompletion: @escaping () -> Void = {}) {
