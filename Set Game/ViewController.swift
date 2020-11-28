@@ -19,10 +19,6 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         setDefaultButtonsStyles()
         updateViewController()
         
-//        let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.touchMyCard))
-//        //            tap.delegate = gameBoardView
-//        self.addGestureRecognizer(tap)
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     @IBAction func dealMoreCards(_ sender: UIView) {

@@ -148,21 +148,6 @@ class GameBoardView: UIView
                     }
                 }
                 
-                
-                /*cardView.isReadyToFlip = false
-                cardView.animate(to: targetFrame, allowFlip: false)
-                if cardView.timerAdded == false {
-                    Timer.scheduledTimer(withTimeInterval: lastCardOutDate.next(withDelay: 0.2).delay, repeats: false) { [unowned self, weak cardView] (timer) in
-                        if let cardView = cardView {
-                            cardView.state = .flyingOut
-                            cardView.isReadyToFlip = true
-                            self.insertSubview(cardView, at: self.subviews.count - 1)
-                            self.setNeedsDisplay()
-                            cardView.animate(to: outFrame, afterFlipCompletion: removeCardView)
-                        }
-                    }
-                    cardView.timerAdded = true
-                }*/
             case .out:
                 cardView.animate(to: outFrame)
             default:
@@ -180,10 +165,6 @@ class GameBoardView: UIView
         func animateCard(to target: CGRect) {
             
         }
-    }
-    
-    override func awakeFromNib() {
-//        for _ in 0..<20 { addCardToTheDeck(shape: .diamond, shapesCount: .three, color: .red, shading: .striped) }
     }
     
     func removeCard(_ card: Card) {
